@@ -84,7 +84,7 @@ function update(source) {
       links = treeData.descendants().slice(1);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d){ d.y = d.depth * 180});
+  nodes.forEach(function(d){ d.y = d.depth * 225});
 
   // ****************** Nodes section ***************************
 
@@ -110,7 +110,7 @@ function update(source) {
 
   // Add labels for the nodes
   nodeEnter.append('text')
-      .attr("dy", ".2em")
+      .attr("dy", ".1em")
       .attr("x", function(d) {
           return d.children || d._children ? -15 : 15;
       })
