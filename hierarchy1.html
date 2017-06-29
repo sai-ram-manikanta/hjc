@@ -3,19 +3,20 @@
 <style>
 
 .node circle {
-  fill: #fff;
-  stroke: orange;
+  stroke: red;
   stroke-width: 3px;
 }
 
 .node text {
   font: 13.5px sans-serif;
-  fill: blue;
+  fill: black;
+        font-weight: bold;
+
 }
 
 .link {
   fill: none;
-  stroke: #ccc;
+  stroke: #aaa;
   stroke-width: 2px;
 }
 
@@ -27,7 +28,7 @@
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-var treeData =d3.json("https://sairammanikanta.github.io/hjc/hierarchydata2.json",function (treeData) {
+var treeData =d3.json("http://127.0.0.1:8887/hierarchydata2.json",function (treeData) {
 console.log(treeData);
  
 
@@ -46,12 +47,13 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate("
           + margin.left + "," + margin.top + ")");
 
-var i = 100,
+var i = 10,
     duration = 1500,
     root;
 
 // declares a tree layout and assigns the size
-var treemap = d3.tree().size([height, width]);
+var treemap = d3.tree()
+				.size([height, width]);
 
 // Assigns parent, children, height, depth
 root = d3.hierarchy(treeData, function(d) { return d.children; });
@@ -108,9 +110,9 @@ function update(source) {
 
   // Add labels for the nodes
   nodeEnter.append('text')
-      .attr("dy", ".35em")
+      .attr("dy", ".2em")
       .attr("x", function(d) {
-          return d.children || d._children ? -10 : 10;
+          return d.children || d._children ? -15 : 15;
       })
       .attr("text-anchor", function(d) {
           return d.children || d._children ? "end" : "start";
