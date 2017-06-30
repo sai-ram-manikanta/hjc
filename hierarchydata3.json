@@ -1,0 +1,109 @@
+{
+"name": "Savya",
+"children":[
+{"name":"Paramjit Singh"},
+{"name":"Harish Jayraj"},
+{"name":"Gunavantha Patil"},
+{"name":"Ravi Chandra"},
+
+{"name":"Lavanya Satish"},
+{"name":"Satish Kumar"},
+{"name":"Subrahmanyam"},
+{"name":"Nanda Gopal"},
+{
+ "name": "Alka",
+ "children": [
+ {
+ "name":"Abdul",
+ "children":[
+ {"name":"Ashok",
+ "children":[
+  {"name":"Swathi B"},
+ {"name":"Navya S"},
+ {"name":"Sai Ram"},
+ {"name":"Jayanth"}
+ ]
+ },
+ {"name": "Kuldeep",
+ "children":[
+  {"name":"Veera"},
+ {"name":"Chandrika"}
+ ]
+ },
+ 
+ {"name": "Himanshu",
+ "children":[
+  {"name":"Ankur"},
+   {"name":"Preetish"},
+    {"name":"Lakshmi"},
+    {"name":"Siva"},
+	 {"name":"Swathi Reddy"},
+	  {"name":"Rajini"},
+	   {"name":"Venu"},
+	   {"name":"Swathi P"},
+	    {"name":"Navya B"},
+		 {"name":"Rahul"},
+		  {"name":"Venkatesh"},
+		   {"name":"Sateesh"},
+ {"name":"Harika"}
+ ]
+ 
+ 
+ },
+ {
+ "name": "Kishore",
+ "children":[
+ {"name": "Swetha"},
+  {"name": "Harini"},
+   {"name": "Imtiyaz"},
+    {"name": "Sabitha"}
+	]
+	}
+ ]
+},
+ 
+ {
+ "name":"Lavanya",
+ "children":[
+ {"name":"Murali",
+
+"children":[{"name":"Manogna"} ]}
+
+ ]
+ },
+
+{
+ "name":"Deepak",
+ "children":[
+ {"name":"Srikanth P",
+"children":[{"name": "Hemanth" }
+]
+},
+ {"name": "Chalasani Lakshmi Narasayya"}
+ ]
+ },
+ {
+ "name":"Vaishali",
+ "children":[
+ {"name":"Rakesh" 
+ },
+ {"name": "Kasi"},
+  {"name": "Sarvotham",
+  "children": [{"name":"Neha"},
+  {"name":"Radhika"}]
+  }
+ ]
+ }
+]
+}
+
+]
+}
+
+
+
+
+
+
+
+
