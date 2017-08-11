@@ -59,7 +59,7 @@
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.json("http://127.0.0.1:8887/datavalue.json", function(error, data) {
+    d3.json("https://sai-ram-manikanta.github.io/hjc/date_value.json", function(error, data) {
 
         data.forEach(function(d) {
             d.date = parseDate(d.date);
